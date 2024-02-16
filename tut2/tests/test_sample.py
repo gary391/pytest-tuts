@@ -16,6 +16,10 @@ def test_validate_age_invalid_age():
     # Which contains all the information about the exception.
     with pytest.raises(ValueError) as exc_info:
         validate_age(-1)
+        # print(str(exc_info.value)) Note this line will not be executed
+        # As soon as the exception is raised the with context was complete
+        # and it came out of the block
+
         # How to validate if the correct message was printed when the exception was raised.
     assert str(exc_info.value) == "Age cannot be less than 0"
 
