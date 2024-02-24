@@ -25,3 +25,13 @@
 
 - Allows you easily set metadata on your test function.
 ---
+
+### Unit Testing in Python with pytest | Creating Fixture Factory (Part-7)
+
+ - Fixture factory is where fixtures are manufactured based on the demand.
+ - You will get a function object as fixture, while you are trying to use 
+   it throughout your unit test, your unit test will receive another function
+   which it can call to the get the actual fixture object. The main benefit of
+   this technique is that while you are calling that function to generate the 
+   fixture object, you can pass parameter which turn can generate separate fixture 
+   object with variations.
