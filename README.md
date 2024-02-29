@@ -35,3 +35,7 @@
    this technique is that while you are calling that function to generate the 
    fixture object, you can pass parameter which turn can generate separate fixture 
    object with variations.
+
+### Unit Testing in Python with pytest | Advanced Mocking (Part-10)
+- side_effect
+- 
